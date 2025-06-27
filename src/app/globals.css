@@ -40,10 +40,12 @@ body {
   min-height: 100svh;
   overflow-x: hidden;
   overflow: hidden;
+  color:white;
+
 }
 
 .container {
-  min-height: 100svh;
+  min-height: 200svh;
   position: relative;
   background: linear-gradient(
     223.17deg,
@@ -220,6 +222,141 @@ body {
 .section-2 h3 {
   font-size: 2.5rem;
 }
+
+.section-3{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  inset: 0;
+  opacity: 0;
+  visibility: hidden;
+
+}
+
+.video-1-container {
+  height: 100vh;
+  width:100vw;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.frame-image-1 {
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  inset:0;
+  pointer-events: none;
+  user-select: none;
+
+}
+
+
+
+.jason-profile-1{
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 0 15%;
+  flex-wrap: wrap;
+  margin: 0 auto;;
+  gap: 2rem;
+  inset: 1;
+  pointer-events: none;
+  z-index:2;
+
+}
+
+.jason-section-1{
+ flex:1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+}
+
+.jason-text-1{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding: 0 10%;
+}
+
+.jason-text-1-container{
+  padding:0 10%; ;
+}
+
+.jason-section-1 h1{
+  text-transform: uppercase;
+  color: #fff9cb;
+  font-size: 3.8rem;
+  text-align: end;
+  margin-left: auto;
+  display: block;
+}
+
+.jason-section-1 h3{
+  color:#ffb0c4;
+  text-align:start;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  padding-left: 10%;
+}
+
+.jason-section-1 p{
+
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  padding-left: 10%;
+}
+
+.jason-pic-1{
+  background-image:url("/Jason_Duval_01.webp");
+  background-position: 82% 0%;
+  width: 80%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-left: auto;
+} 
+
+.jason-section-2 {
+  flex:1;
+  position: relative;
+  padding-top: 20%;
+
+}
+
+.jason-pic-2 {
+  background-image: url("/Jason_Duval_02.webp");
+  background-position: 30% 0%;
+  width:800px;
+  height:100vh;
+  position: absolute;
+  overflow: visible;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 1rem;
+}
+
+.jason-pic-3{
+  background-image: url("/Jason_Duval_06.webp");
+  background-position: 50% 0%;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  overflow: visible;
+  top:140vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 1rem;
+}
+
 
 @media (min-width: 1024px) {
   .hero-text {

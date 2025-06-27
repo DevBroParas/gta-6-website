@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import gsap from "gsap";
 
 const Section2 = () => {
   return (

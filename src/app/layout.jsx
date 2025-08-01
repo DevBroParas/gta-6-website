@@ -1,5 +1,6 @@
 import "./globals.css";
 import { TimelineProvider } from "@/Context/TimelineContext";
+import Head from "next/head";
 
 export default function RootLayout({ children }) {
   return (

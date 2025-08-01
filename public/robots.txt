@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://gta6.devbro.site
+
+# Sitemaps
+Sitemap: https://gta6.devbro.site/sitemap.xml
